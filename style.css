@@ -4,32 +4,24 @@ body {
 	font-size: 18px;
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
+	color: var(--tg-theme-text-color);
 }
 
 .container {
-	max-width: 390px;
+	max-width: auto;
 }
 
-.inner {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 200px 200px 200px;
-}
-
-.item {
-	text-align: center;
-	border: 10px black;
-	border-radius: 1%;
-	background-color: whitesmoke;
+.header {
+	max-width: 300px;
 }
 
 .btn {
 	display: inline-block;
 	padding: 10px 20px;
 	border: none;
-	background: rgb(248, 168, 24);
+	background: var(--tg-theme-button-text-color);
 	border-radius: 10px;
-	color: wheat;
+	color: var(--tg-theme-button-color);
 	text-transform: uppercase;
 	font-weight: 700;
 	transition: background .2s linear;
