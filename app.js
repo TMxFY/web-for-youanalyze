@@ -7,7 +7,7 @@ tg.MainButton.color = "#FF00FF";
 
 let btn = document.getElementById("btn");
 
-btn.addEventListener("click", function(){
+btn.addEventListener("click",() => {
     tg.MainButton.setText("Сообщение отправлено!");
     tg.MainButton.show();
     tg.sendData("sendTestMessage");
