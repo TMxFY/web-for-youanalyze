@@ -25,15 +25,12 @@ body {
 
 .btn {
 	display: inline-block;
-	padding: 10px 20px;
-	border: none;
+	margin:auto 20px;
 	background: var(--tg-theme-button-text-color);
-	border-radius: 10px;
 	color: var(--tg-theme-link-color);
 	font-weight: 400;
 	text-decoration: none;
 	font-size: medium ;
-	transition: background .2s linear;
 }
 
 .btn-group button{
