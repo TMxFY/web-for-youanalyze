@@ -41,21 +41,28 @@ body {
 }
 
 .btn-group{
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
-.bal p {
+.bal p{
+	margin-top: -10px;
 	display: inline-block;
 }
 .totalbalance p{
 	color: var(--tg-theme-hint-color);
-	font-size: large;
+	font-size: medium;
 }
 .bal .mainbal{
 	color: var(--tg-theme-text-color);
-	font-size: x-large;
+	font-size: xx-large;
 }
 .bal .dollarhint{
 	color: var(--tg-theme-hint-color);
-	font-size: x-large;
+	font-size: xx-large;
+}
+.bal .cents{
+	font-size: large;
+}
+.bal img{
+	margin-left: 10px;
 }
