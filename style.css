@@ -45,6 +45,6 @@ body {
 	font-size: large;
 }
 .bal p{
-	color: var(--tg-theme-hint-color);
+	color: var(--tg-theme-text-color);
 	font-size: x-large;
 }
