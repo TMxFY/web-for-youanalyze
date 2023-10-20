@@ -25,8 +25,7 @@ body {
 
 .btn {
 	display: inline-block;
-	margin:auto 20px;
-	background: var(--tg-theme-button-text-color);
+	margin-left: 20px;
 	color: var(--tg-theme-link-color);
 	font-weight: 400;
 	text-decoration: none;
@@ -36,10 +35,6 @@ body {
 .btn-group{
 	margin-top: 5px;
 }
-
-/* .btn-group div{
-	display: inline-block;
-} */
 
 .bal p{
 	margin-top: -10px;
